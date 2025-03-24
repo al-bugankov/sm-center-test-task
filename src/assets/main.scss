@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Убираем стили списков
+ul, ol {
+  list-style: none;
+}
+
+// Убираем стандартные стили ссылок
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Обнуляем стандартные стили кнопок
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('@/assets/fonts/Roboto-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('@/assets/fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.content {
+  padding-inline: 260px;
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+
+$black: #000000;
+$primary-red: rgba(250, 40, 40, 0.98);
+$secondary-red: rgba(255, 82, 82, 0.98);
+$light-grey: #C4C4C4;
+$white: #FFFFFF;
+$grey-brown: #988F8F;
+$dark-grey: #4D4747;
+$silver-grey: #E5E5E5;
+$black-brown: #363232;
+
+
