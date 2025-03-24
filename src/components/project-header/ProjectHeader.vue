@@ -28,5 +28,6 @@
   letter-spacing: calc(0.21 * 1em);
   font-weight: 700;
   font-family: Roboto-Bold, sans-serif;
+  text-transform: uppercase;
 }
 </style>

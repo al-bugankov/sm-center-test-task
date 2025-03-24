@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router';
-
+import { ERouteNames } from '@/router/ERouteNames.ts'
 
 const router = useRouter();
 
 // Переход на страницу с формой
 const goToForm = (formName: string) => {
-  router.push({ name: 'FormGeneratorPage', params: { formName } });
+  router.push({ name: ERouteNames.FORM_GENERATOR, params: { formName } });
 };
 </script>
 
